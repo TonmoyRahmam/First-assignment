@@ -11,6 +11,7 @@ p{
 }
 .top{
     display: flex;
+    margin-top: 10%;
 }
 .half-width{
         width: 50%;  
@@ -42,21 +43,20 @@ p{
 padding-left: 60%;
     padding-top: 15%;
     padding-bottom: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
    
 
 }
 .background{
-    background-image: url(
-        photos/T22-01.png
-    );
+    background-image: url(photos/Frame\ 58.jpg);
+   
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 .recipies-intro{
     display: flex;
-    margin-top: 350px;
+    margin-top:10%;
     padding-right: 30%;
     padding-left: 30%;
 
@@ -97,16 +97,23 @@ padding-left: 60%;
         display: flex;
         
         padding-left: 35%;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        
-    }
-   .last{
-       padding-left: 60px;
-
-       text-align: center;
+        margin-top: 10%;
        
-    }
+}
+#all{
+    box-shadow: 10px 10px 40px black;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 12px;
+}
+.last{
+    padding-left: 15px;
+    padding-right: 15px;
+}        
     #yt{
         margin-top: 20px;
         text-decoration: none;
@@ -134,7 +141,7 @@ padding-left: 60%;
         font-weight: 900;
         border-radius: 12px;
     }
-
+   
 
 #end{
     height: 200px;
@@ -142,6 +149,7 @@ padding-left: 60%;
     color: grey;
     text-align: center;
     padding-top: 30px;
+    margin-top: 10%;
     }
   
 
