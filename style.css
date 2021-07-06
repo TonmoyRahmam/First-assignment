@@ -5,13 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
-.color-change{color: rgb(255, 0, 98);}
+.color-change{color: rgb(255, 115, 0);}
 p{
     font-size: 20px;
 }
 .top{
     display: flex;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .half-width{
         width: 50%;  
@@ -26,45 +26,52 @@ p{
 .link{
     margin-top: 20px;
     text-decoration: none;
-    background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 119));
+    background-image: linear-gradient(rgb(255, 174, 0),rgb(255, 94, 0));
     padding: 10px 20px;
     color: white;
     font-weight: 900;
     border-radius: 12px;
-    
-}
+    }
+    .link2{
+        margin-top: 20px;
+        text-decoration: none;
+        background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 119));
+        padding: 10px 20px;
+        color: white;
+        font-weight: 900;
+        border-radius: 12px;
+    }
 #intro{
     padding-top: 20px;
-}
-
-
+      }
 .frame-text{width: 30%;
-    
-padding-left: 60%;
+    padding-left: 60%;
     padding-top: 15%;
     padding-bottom: 15%;
     margin-top: 10%;
-   
-
-}
+   }
 .background{
     background-image: url(photos/Frame\ 58.jpg);
-   
-    background-size: cover;
+   background-size: cover;
     background-repeat: no-repeat;
-
-}
+    }
 .recipies-intro{
     display: flex;
     margin-top:10%;
-    padding-right: 30%;
-    padding-left: 30%;
-
+   padding-left: 30%;
+   padding-right: 30%;
 }
-#name{
+    #name{
     padding-left: 300px;
     padding-bottom: 20px;
-}
+    color: rgb(252, 92, 0);
+   }
+   .red-color{
+       color: rgb(255, 4, 66);
+   }
+   .gray-color{
+       color: rgb(156, 155, 155);
+   }
 #center{
     padding-left: 318px;
 }
@@ -77,7 +84,6 @@ padding-left: 60%;
     box-shadow: 10px 10px 40px black;
     margin-top: 40px;
     border-radius: 15px;
-
 }
 .recipies img{
     width: 100%;
@@ -98,8 +104,7 @@ padding-left: 60%;
         
         padding-left: 35%;
         margin-top: 10%;
-       
-}
+       }
 #all{
     box-shadow: 10px 10px 40px black;
     display: flex;
@@ -141,15 +146,28 @@ padding-left: 60%;
         font-weight: 900;
         border-radius: 12px;
     }
-   
-
-#end{
+   .end{
     height: 200px;
-    background-color: black;
-    color: grey;
+    background-color: rgb(63, 62, 62);
+    color: rgb(243, 241, 241);
     text-align: center;
     padding-top: 30px;
     margin-top: 10%;
+    }
+    .extra{
+        display: flex;
+        
+    background-color: rgb(63, 62, 62);
+    color: rgb(243, 241, 241);
+    padding-top: 30px;
+    }
+    #extra1{
+        margin-left: 40%;
+        display: flex;
+        margin-top: 30px;
+    }
+    .extra-text{
+        padding-left: 30px;
     }
   
 
