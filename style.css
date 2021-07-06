@@ -23,7 +23,7 @@ p{
     padding-left: 10%;
 }
 .link{
-    margin-top: 10%;
+    margin-top: 20px;
     text-decoration: none;
     background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 119));
     padding: 10px 20px;
@@ -35,15 +35,113 @@ p{
 #intro{
     padding-top: 20px;
 }
-#frame-bg{
-    background-image: url(photos/Frame\ 58.jpg);
-    background-repeat: no-repeat;
-    background-attachment:local;
-    
-    
-    width: 30%;
-    padding-left: 60%;
-    
-}
 
+
+.frame-text{width: 30%;
     
+padding-left: 60%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-top: 15%;
+   
+
+}
+.background{
+    background-image: url(
+        photos/T22-01.png
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.recipies-intro{
+    display: flex;
+    margin-top: 350px;
+    padding-right: 30%;
+    padding-left: 30%;
+
+}
+#name{
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+#center{
+    padding-left: 318px;
+}
+.recipies{
+    padding: 30px;
+    height: 440px;
+    width: 23%;
+    float: none;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px black;
+    margin-top: 40px;
+    border-radius: 15px;
+
+}
+.recipies img{
+    width: 100%;
+    border-radius: 15px;
+}
+    
+.link-r{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(49, 48, 48),rgb(116, 115, 115));
+    padding: 10px 20px;
+    color: white;
+    font-weight: 900;
+    border-radius: 12px;
+    margin-left: 30%;
+    }
+    .top2{
+        display: flex;
+        
+        padding-left: 35%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+    }
+   .last{
+       padding-left: 60px;
+
+       text-align: center;
+       
+    }
+    #yt{
+        margin-top: 20px;
+        text-decoration: none;
+        background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 34));
+        padding: 10px 20px;
+        color: white;
+        font-weight: 900;
+        border-radius: 12px;
+    }
+    #fb{
+        margin-top: 20px;
+        text-decoration: none;
+        background-image: linear-gradient(rgb(0, 140, 255),rgb(0, 195, 255));
+        padding: 10px 20px;
+        color: white;
+        font-weight: 900;
+        border-radius: 12px;
+    }
+    #ig{
+        margin-top: 20px;
+        text-decoration: none;
+        background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 140));
+        padding: 10px 20px;
+        color: white;
+        font-weight: 900;
+        border-radius: 12px;
+    }
+
+
+#end{
+    height: 200px;
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding-top: 30px;
+    }
+  
+
